@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ad:</b>
+  <%= @post.ad %>
+</p>
+
+<p>
+  <b>Soyad:</b>
+  <%= @post.soyad %>
+</p>
+
+<p>
+  <b>Yas:</b>
+  <%= @post.yas %>
+</p>
+
+<p>
+  <b>Adres:</b>
+  <%= @post.adres %>
+</p>
+<hr>
+<%= link_to 'Güncelle', edit_post_path(@post) %> |
+<%= link_to 'Geri', posts_path %> |
+<%= link_to "Sil", @post, :method => :delete %>
+
+

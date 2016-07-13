@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  demosite_id: 1
+  ad: MyString
+  soyad: MyString
+  yas: 1
+  adres: MyText
+
+two:
+  demosite_id: 1
+  ad: MyString
+  soyad: MyString
+  yas: 1
+  adres: MyText
